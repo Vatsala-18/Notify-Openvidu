@@ -3,7 +3,9 @@ package io.openvidu.call.java.config;
 import java.io.IOException;
 import java.io.InputStream;
 
+import com.google.cloud.firestore.Firestore;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.cloud.FirestoreClient;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -59,6 +61,10 @@ public class FirebaseConfig {
     @Bean
     FirebaseAuth firebaseAuth(){
         return FirebaseAuth.getInstance();
+    }
+    @Bean
+  Firestore firestore(FirebaseApp firebaseApp){
+      return FirestoreClient.getFirestore(firebaseApp);
     }
 
 }
