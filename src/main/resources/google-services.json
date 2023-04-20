@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "openvidu-android-sample",
+  "private_key_id": "24b3efd656f1563a72437febd3ec6a8201ea9952",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDtPSR9vpHPwj3G\n/4UDU5Ubq61LxNYFWuCbGrokxUzU6S+/G0HWkNsDJmEIgf9DFCuwLclVJQjQlSBl\n11K2H/KUnWDp7KMxYAl8xkZkNUxFHxiQ5MgXwSID0WdyMDIcZ7UU6hG2wJBgPzQj\nQbphXUfyADZRM8v7Prtgsou0cvYK7glrvCQ7l8o4rm/dw3IHfFvDo+Gto5jYLzeq\nwJ5ob73kxtJrrbvOQzikoLoWjSvWORM9CU7TuLukz+7secL0MX6CcxeF1547knBk\nhEIxXGJ9d7xIvDtbqANXiel8C3UBo3U+eBjT5jdcyE6MLfsRHHzH2zKGR/oEfb6S\nFJjJ7e3tAgMBAAECggEAAuuJvh0mYPmca7f2xH+233b8Kb6Wfne2jrIu2wetVmw4\nW5B+UvcdewBx7qTgUMxiwpxi/1qhV8/owi16+yWRhXrFF/FYYOHfEVtval8C5/w7\nVS07uUR1+A4PyTwGoeA06Q5TLCiv85So6PYve8X7fg26nW1ByX861zSGEQaJOMEx\n5+0tDQlszv7mhbqVWJR/q6ZuELIo59dqDmhcb3KUw86A/8l3gjNrUMvUmuJfoQfX\ncT7Rk5YKwLbyyLKB2i0I4nXdV+N7aw8ufVdyt2Aja1j46E2psVZIBqI7pzizqIH5\niNcwQO+/iaZWaV4ZYV9lS/kHSUuKrgujz6IOk8loAQKBgQD+gl8vnvNbJn03ru/y\nJYx4+4QIj7hutoOp8HiHZrT8q8/L3TWxt5VFBGAaEjzTylMttWS5Wou+36mVuS62\nKfTm7J/pkiEXmlBtYMw2XAsf+ljELK6xBd2HIVmEFDW0ISXXq+mh8oCvihd10+7E\n7tFEg91chg/X7w3ODQ5yr6oUgQKBgQDuoN/RoqB2jdd0fgaR64HKMT4xaFHnEDhH\nwSGHMyA9tt6mn3VNDN1JCDFe1oQEB9WqyqC58lCinNWwDn5JgWL5EVsR5DfNwdxj\nv2bI7WBzwne/bVOSRN+iAQCzpeyJD8mOStD5KwXAFIdb/KIzVvCqtsVeyLyVhUGm\ns2ZYt62zbQKBgD877yBq0rXz8yqRmWZFdAhfHWfvJXjEeiQP7jJeD1uz6HYTaRLV\ntQ2nz6TKoThRzabOqc7vs0biVUUw9G0oMYPqiLTErNorag4y/aoH5m+0iLd9Do5H\nEcpQO+h4CPvPPJLAUNT+5oA2xCtvU6S0XWQzix1A5dDVwU1PqyZNhOmBAoGBAKAY\nvLEH+8IuXavhVYUWzSgbK4+4XqK4Zhn2AAmWCn59Lxn5B5jfFaOG5KCtKTsPCpIg\nif7XDLRcpp0MzDuCnCVgOIpjY/EerD8bzdjmMXzYrsB2l8gdfzBQnejpXC2EswRN\nO7C/5Ya9/yZ+80+gd60BHJ//604hbi9qUzMYYGhtAoGBAKMMbUCjizc0EhJD3ZpI\nJv3BhQ3/lsOoToZVu/3hpkZl4kYffiRQFw8zP/jY6mY38JEtqjF0PWKTIw4xnvyG\niX+XtuB+TuZ7Y7CG4Ndoor2HVDGwCEbIRn52N+Zp3BZHMpQ/E8NhklMAq3JnARX5\nnU7/mNUwTmrp+lvKPOuqygYl\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3paiz@openvidu-android-sample.iam.gserviceaccount.com",
+  "client_id": "113192645286781828988",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3paiz%40openvidu-android-sample.iam.gserviceaccount.com"
+}
