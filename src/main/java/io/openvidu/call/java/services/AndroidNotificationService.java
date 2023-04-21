@@ -29,8 +29,8 @@ import java.util.Map;
 public class AndroidNotificationService {
     public static final Logger looger= LoggerFactory.getLogger(AndroidNotificationService.class);
 
-    @Value("${firebase.config}")
-    private String firebaseConfig;
+    @Value("${firebase.collection}")
+    private String firebaseCollection;
     @Autowired
     FirebaseMessaging firebaseMessaging;
 
@@ -46,20 +46,15 @@ public class AndroidNotificationService {
       String phoneNumber= (String) params.get("phoneNumber");
 
         try {
-          DocumentReference docRef = db.collection("userdata").document(phoneNumber);
+          DocumentReference docRef = db.collection(firebaseCollection).document(phoneNumber);
           ApiFuture<DocumentSnapshot> future = docRef.get();
           DocumentSnapshot document = future.get();
           AppNotification appNotification=new AppNotification();
           if (document.exists()) {
-            looger.info("Document data: " + document.getData());
             appNotification=document.toObject(AppNotification.class);
           } else {
             System.out.println("No such document!");
           }
-
-
-            looger.info(appNotification.getUsertoken());
-
             // Create notification message
             //Notification notification = new Notification("New message received", "You have a new message");
             HashMap<String,String> response=new HashMap<>();
@@ -78,8 +73,8 @@ public class AndroidNotificationService {
             response.put("id",id);
             return new ResponseEntity<>(response,HttpStatus.OK);
         } catch (Exception e) {
-            looger.error("Exceptiom {}",e);
-            return null;
+            looger.error("Getting Exception While Submitting the message {}",e.getStackTrace());
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 }
